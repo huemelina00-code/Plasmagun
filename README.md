@@ -1,4 +1,4 @@
- 
+
  <h1 style="font-size1000px" >(っ◔◡◔)っ <img width="45" height="45" alt="image-from-rawpixel-id-6430893-png" src="https://github.com/user-attachments/assets/68af7046-94d3-46a5-a16d-fc9388d49aa5" />      PLASMAGUN PROJECT    </h1>
 
 
@@ -104,7 +104,7 @@ Below you can see the OLED display with the labeled values:
    Displays the chamber temperature. By default in Celsius, but you can convert to Fahrenheit with the code:
 
    ```cpp
-   float temperatureF = temperature * 9.0 / 5.0 + 32;
+   float temperatureF = temperature * 9.0 / 5.0 + 32; +31
    display.setCursor(2, 0);
    display.print(temperatureF, 1);
    display.print("F ");
